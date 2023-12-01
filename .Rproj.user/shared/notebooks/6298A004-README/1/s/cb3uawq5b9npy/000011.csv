@@ -1,0 +1,5 @@
+"0","df <- earthquakes %>%"
+"0","  eq_clean_data() %>%"
+"0","  dplyr::filter("
+"0","    country %in% c(""USA"", ""Mexico"") & lubridate::year(date) >= 2000"
+"0","  )"

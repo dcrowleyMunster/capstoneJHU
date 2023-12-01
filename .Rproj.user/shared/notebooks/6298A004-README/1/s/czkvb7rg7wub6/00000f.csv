@@ -1,0 +1,6 @@
+"0","api_uri <- ""https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes"""
+"0","f <- jsonlite::read_json(api_uri, simplify = TRUE)"
+"2","Warning: URL 'https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes': status was 'Couldn't connect to server'"
+"2","Error in open.connection(con, ""rb"") : 
+  cannot open the connection to 'https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes'
+"

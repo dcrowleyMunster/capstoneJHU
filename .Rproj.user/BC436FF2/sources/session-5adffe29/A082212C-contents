@@ -1,0 +1,36 @@
+Package: capstoneJHU
+Type: Package
+Title: JHU Capstone Project 
+Version: 0.1.0
+Author: Donal Crowley
+Maintainer: crowleydon8@gmail.com
+Description: Functions to process and visualize NOAA Significant Earthquakes dataset.
+License: MIT + file LICENSE
+URL: https://github.com/lemonad/coursera-mastering-r-capstone
+BugReports: https://github.com/lemonad/coursera-mastering-r-capstone/issues
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Imports:
+    datasets,
+    dplyr,
+    ggplot2,
+    graphics,
+    grid,
+    jsonlite,
+    leaflet,
+    lubridate,
+    magrittr,
+    readr,
+    rlang,
+    stringr,
+    usethis
+RoxygenNote: 7.1.1
+Depends:
+    R (>= 3.5.0)
