@@ -1,0 +1,32 @@
+Package: capstoneJHU
+Type: Package
+Title: capstoneJHU
+Version: 0.1.0
+Author: Donal Crowly
+Maintainer: Donal Crowly <dcrowlyMurphy@somewhere.net>
+Description: This package is the outcome of the Mastering Software Development in R Capstone.
+License: Apache 2.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Imports: 
+    datasets,
+    dplyr,
+    ggplot2,
+    graphics,
+    grid,
+    jsonlite,
+    leaflet,
+    lubridate,
+    magrittr,
+    readr,
+    rlang,
+    stringr,
+    usethis
+RoxygenNote: 7.2.3
+Depends:
+    R (>= 3.5.0)
